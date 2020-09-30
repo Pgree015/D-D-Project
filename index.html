@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <title>Absolute Unit D&D</title>
+    <link href="./Resources/css/index.css" rel="stylesheet">
+  </head>
+  <body class="index">
+    <header>
+      <h1 id="banner">Absolute Unit: A Site to Show Off D&D Characters!</h1>
+     </header>
+    <main class="pagetext">
+      <h2>Welcome to my page!</h2>
+      <p>My name is Patrick and I love to play Dungeons & Dragons.
+      I had my first taste of D&D with a brief 3.5e one-shot and I played a couple sessions of 4e,
+      but it wasn't until several years after 5e came out that I got to play D&D with any regularity. 
+      I have now been playing consistently with the same group for about three years.
+      </p>
+      <p>One of my favorite aspects of the game is developing characters to role-play.
+      My group doesn't have a lot of time to spend on prep,
+      so we play a lot of pre-made modules and take turns at being the DM.
+      Because of that, I'm not only running my own campaign,
+      my friends are also running three other campaigns among themselves right now!
+      </p>
+      <p>
+      I've created many characters over my time playing D&D,
+      but I have three favorite characters for the campaigns my current group runs:
+      </p>
+      <ul>
+        <li>Rysstyl Amakiir: A wood elf ranger, misanthrope, and drunkard.</li>
+        <li>Vanendyn Faefaren: A half-elf paladin, family-man, and soldier.</li>
+        <li>Zane Aldridge: A human fighter, lothario, and racketeer.</li>
+      </ul>
+      <p>I could talk about the stories I've come up with for these characters all day.
+      Of course, that's not what's supposed to be happening around the table, so I will be taking care of that here!
+      I may put some of my friend's characters up here at some point too, as well (if they're brave/industrious enough).
+      Click on one of the portraits below to learn about a Character!
+      </p>
+    </main>
+    <nav>
+     <span><a href="./Resources/Bio Pages/Rysstyl.html"><img class="links" src="./Resources/Images/Rysstyl.png" alt="Ryssty Amakiir"></a></span>
+     <span><a href="./Resources/Bio Pages/Van.html"><img class="links" src="./Resources/Images/Van.png" alt="Vanendyn Faefaren"></a></span>
+     <span><a href="./Resources/Bio Pages/Zane.html"><img class="links" src="./Resources/Images/Zane.jpg" alt="Zane Aldridge"></a></span>
+     <span><a href="./Resources/Bio Pages/Dahlia.html"><img class="links" src="./Resources/Images/Dahlia.jpg" alt="Dahlia Pythia"></a></span>
+     <span><a href="./Resources/Bio Pages/Percy.html"><img class="links" src="./Resources/Images/Perseus.jpg" alt="Perseus Plutarch"></a></span>
+    </nav>
+    <section class="questions">
+      <form action="./data.html" method="GET">
+        <h1>Tell Me About Your Favorite Character!</h1>
+        <section class="charactername">
+          <p>What's your Character's name?</p>
+          <input id="charactername" name="charactername" type="text" placeholder="Big Joe Hero">
+        </section>
+        <br>
+        <section class="characterrace">
+          <p>What race is your character?</p>
+            <label for="dwarf">Dwarf</label>
+            <input type="radio" name="characterrace" id="dwarf" value="dwarf">
+            <label for="elf">Elf</label>
+            <input type="radio" name="characterrace" id="elf" value="elf">
+            <label for="halfling">Halfling</label>
+            <input type="radio" name="characterrace" id="halfling" value="halfling">
+            <label for="human">Human</label>
+            <input type="radio" name="characterrace" id="human" value="human">
+            <label for="dragonborn">Dragonborn</label>
+            <input type="radio" name="characterrace" id="dragonborn" value="dragonborn">
+            <label for="gnome">Gnome</label>
+            <input type="radio" name="characterrace" id="gnome" value="gnome">
+            <label for="half-elf">Half-Elf</label>
+            <input type="radio" name="characterrace" id="half-elf" value="half-elf">
+            <label for="half-orc">Half-Orc</label>
+            <input type="radio" name="characterrace" id="half-orc" value="half-orc">
+            <label for="tiefling">Tiefling</label>
+            <input type="radio" name="characterrace" id="tiefling" value="tiefling">
+            <label for="other">Other</label>
+            <input type="radio" name="characterrace" id="other" value="other">
+          <br>
+          <br>
+          <input type="text" name="characterrace" id="other" placeholder="Tabaxi">
+          <label for="other">If you chose "other," please specify your character's race!</label>
+        </section>
+        <br>
+        <section class="characterclass">
+          <p>What class is your character?</p>
+            <label for="barbarian">Barbarian</label>
+            <input id="barbarian" name="characterclass" type="checkbox" value="barbarian">
+            <label for="barbarian">Bard</label>
+            <input id="bard" name="characterclass" type="checkbox" value="bard">
+            <label for="cleric">Cleric</label>
+            <input id="cleric" name="characterclass" type="checkbox" value="cleric">
+            <label for="druid">Druid</label>
+            <input id="druid" name="characterclass" type="checkbox" value="druid">
+            <label for="fighter">Fighter</label>
+            <input id="fighter" name="characterclass" type="checkbox" value="fighter">
+            <label for="monk">Monk</label>
+            <input id="monk" name="characterclass" type="checkbox" value="monk">
+            <label for="paladin">Paladin</label>
+            <input id="paladin" name="characterclass" type="checkbox" value="paladin">
+            <label for="ranger">Ranger</label>
+            <input id="ranger" name="characterclass" type="checkbox" value="ranger">
+            <label for="rogue">Rogue</label>
+            <input id="rogue" name="characterclass" type="checkbox" value="rogue">
+            <label for="sorcerer">Sorcerer</label>
+            <input id="sorcerer" name="characterclass" type="checkbox" value="sorcerer">
+            <label for="warlock">Warlock</label>
+            <input id="warlock" name="characterclass" type="checkbox" value="warlock">
+            <label for="wizard">Wizard</label>
+            <input id="wizard" name="characterclass" type="checkbox" value="wizard">
+        </section>
+        <br>
+        <section class="backstory">
+          <p class=>What's your character's story?</p>
+          <textarea rows=5 cols=50 placeholder="A farm boy: Poor. Poor and perfect... With eyes like after a storm."></textarea>
+        </section>
+        <section class="submit">
+          <input type="submit" value="Share Character">
+        </section>
+     </form>
+    </section>
+  </body>
+</html>
